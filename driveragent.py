@@ -4,7 +4,7 @@ import pyttsx3
 import subprocess  # To run other scripts
 
 # Configure Google AI API
-genai.configure(api_key="AIzaSyAH3_N2xuxONKeB6ugQAR23LOc-zAb3qq4")
+genai.configure(api_key="give_your_api")
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Conversation history list
